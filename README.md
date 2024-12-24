@@ -3,24 +3,41 @@
 Bu proje, **ASP.NET MVC** ve **Entity Framework** kullanılarak SQLite ile geliştirilmiş bir eğitim yönetim sistemidir. Uygulama, öğrenci, öğretmen ve kurs yönetiminin yanı sıra bir öğrencinin bir kursa kaydedilebilmesine olanak tanır.  
 
 ## Özellikler  
-- **Öğrenci Yönetimi**  
-  - Öğrenci ekleme  
-  - Öğrenci düzenleme  
+- **Öğrenci Yönetimi**
+  
+
+  - Öğrenci ekleme
+    
+
+  - Öğrenci düzenleme
+    
   - Öğrenci silme
+  
 
 
-- **Öğretmen Yönetimi**  
-  - Öğretmen ekleme  
-  - Öğretmen düzenleme  
-  - Öğretmen silme  
 
-- **Kurs Yönetimi**  
-  - Kurs ekleme  
-  - Kurs düzenleme  
-  - Kurs silme  
+- **Öğretmen Yönetimi**
+  - Öğretmen ekleme
+  - Öğretmen düzenleme
+  - Öğretmen silme
+  
+
+
+
+- **Kurs Yönetimi**
+ 
+
+  - Kurs ekleme
+  
+  - Kurs düzenleme
+ 
+  - Kurs silme
+ 
 
 - **Kayıt İşlemleri**  
-  - Öğrenciyi bir kursa kaydetme  
+  - Öğrenciyi bir kursa kaydetme
+   
+
 
 ## Kullanılan Teknolojiler  
 - **ASP.NET MVC**  
@@ -32,3 +49,18 @@ Bu proje, **ASP.NET MVC** ve **Entity Framework** kullanılarak SQLite ile geli�
 - **Öğretmen Tablosu:** Öğretmen bilgilerini tutar (OgretmenId, Ad, Soyad, Eposta, Telefon).  
 - **Kurs Tablosu:** Kurs bilgilerini tutar (KursId, Baslik).  
 - **Kurs Kayıt Tablosu:** Öğrenci ve kurs arasındaki ilişkiyi tutar.
+
+## Ekran Görüntüleri
+**Öğrenci** 
+
+  
+**Öğretmen** 
+
+ 
+  
+**Kurs** 
+
+
+**Kurs Kayıt** 
+
+ 
