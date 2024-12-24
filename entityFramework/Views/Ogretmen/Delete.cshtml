@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Ogretmen
+@Model.AdSoyad Ogrenciyi silmek İstediğinizden emin misiniz?
+<form action="Delete" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="OgretmenId" />
+    <button class="btn btn-danger" type="submit">Evet</button>
+    <a href="/Ogretmen/Index" class="btn btn-secondary">Hayır</a>
+</form>

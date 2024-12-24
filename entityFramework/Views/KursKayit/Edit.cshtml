@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model KursKayit
+
+<h2>Kurs Güncelleme</h2>
+<hr />
+<form asp-controller="KursKayit" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="KayitId"/>
+
+    <div class="mb-3">
+        <label asp-for="OgrenciId" class="form-label">Öğrenci Adı</label>
+        <select asp-for="OgrenciId" asp-items="@ViewBag.Ogrenciler" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="KursId" class="form-label">Kurs Adı</label>
+        <select asp-for="KursId" asp-items="@ViewBag.Kurslar" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="OgretmenId" class="form-label">Ogretmen Ad Soyad</label>
+        <select asp-for="OgretmenId" asp-items="@ViewBag.Ogretmenler" class="form-control">
+            <option value="">Seçiniz</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

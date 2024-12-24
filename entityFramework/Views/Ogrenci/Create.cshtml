@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Ogrenci
+<h2>Öğrenci Ekle</h2>
+<hr />
+<form asp-controller="Ogrenci" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="OgrenciAd" class="form-label">Öğrenci Adı</label>
+        <input asp-for="OgrenciAd" class="form-control"/>
+    </div>
+    <div class="mb-3">
+        <label asp-for="OgrenciSoyad" class="form-label">Öğrenci Soyadı</label>
+        <input asp-for="OgrenciSoyad" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Eposta" class="form-label">Eposta</label>
+        <input asp-for="Eposta" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Telefon" class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+    </div>
+   <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
